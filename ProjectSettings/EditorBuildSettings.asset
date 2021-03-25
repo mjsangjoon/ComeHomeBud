@@ -36,6 +36,33 @@ EditorBuildSettings:
     path: Assets/Scenes/SuburbsCat.unity
     guid: 573158c86b4e02e408669ba1f764f33e
   - enabled: 1
-    path: Assets/Scenes/CityStart.unity
+    path: Assets/Scenes/SuburbsEnd.unity
     guid: 55a88b7a712d2444bb168282931f9137
+  - enabled: 1
+    path: Assets/Scenes/CityStart.unity
+    guid: 05f1a9599e087544187a19a362a3616b
+  - enabled: 1
+    path: Assets/Scenes/CityCat.unity
+    guid: 4767d0322cc3d1943968ed99638a6a44
+  - enabled: 1
+    path: Assets/Scenes/CityDistraction.unity
+    guid: f491ffc1225d8474496fdc23b570a90d
+  - enabled: 1
+    path: Assets/Scenes/CityDog.unity
+    guid: 1e6f1e24ecb6b4643a98f79924515d38
+  - enabled: 1
+    path: Assets/Scenes/CityLandmark.unity
+    guid: 6fa912eea7159554ba24f72de3c7e78c
+  - enabled: 1
+    path: Assets/Scenes/CityPerson.unity
+    guid: c165722584775dc489a1e9df40bcb01e
+  - enabled: 1
+    path: Assets/Scenes/CityPersonWait.unity
+    guid: 1b8a497ce11d5fa498e71c87b0fbea8b
+  - enabled: 1
+    path: Assets/Scenes/CityRestingSpot.unity
+    guid: 571cd8fbdf540004bbefca8b68685b25
+  - enabled: 1
+    path: Assets/Scenes/CityScent.unity
+    guid: 7354a474a8b4df948b3faa2569261d9a
   m_configObjects: {}
