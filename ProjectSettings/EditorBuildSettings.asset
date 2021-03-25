@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 2d0ef77202edb9e45a918d248ef63679
+  - enabled: 1
+    path: Assets/Scenes/SuburbsStart.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SuburbsCar.unity
+    guid: 9034f81a98a82b4488d35f4310b71517
+  - enabled: 1
+    path: Assets/Scenes/SuburbsLandmark.unity
+    guid: aefe4b30ea987054e8eebb6965a70f04
+  - enabled: 1
+    path: Assets/Scenes/SuburbsPerson.unity
+    guid: f13aedea5e4234942b0a3ef17bf4c77d
+  - enabled: 1
+    path: Assets/Scenes/SuburbsPersonApproach.unity
+    guid: 2065d90f38f40894db3e50f9e612a39d
+  - enabled: 1
+    path: Assets/Scenes/SuburbsPersonWait.unity
+    guid: bb80780d8484f644b94eb2918b3f43e8
+  - enabled: 0
+    path: Assets/Scenes/SuburbsPet.unity
+    guid: 1a2979225554c9948966b35938324bbb
+  - enabled: 1
+    path: Assets/Scenes/SuburbsScent.unity
+    guid: bab20d8905078d34180cfc90ec291ec6
+  - enabled: 1
+    path: Assets/Scenes/SuburbsCat.unity
+    guid: 573158c86b4e02e408669ba1f764f33e
+  - enabled: 1
+    path: Assets/Scenes/CityStart.unity
+    guid: 55a88b7a712d2444bb168282931f9137
+  m_configObjects: {}
