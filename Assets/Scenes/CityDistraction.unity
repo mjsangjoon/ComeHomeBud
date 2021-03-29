@@ -284,7 +284,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - You see a person in the distance.
+    - You approach them to see what they're up to.
 --- !u!114 &507134796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -351,7 +353,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - A cat?
+    - MUST. CHASE.
 --- !u!114 &524169516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -801,7 +805,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - Hey, you've seen that building before!
+    - That means if you go this way you'll be one step closer to home!
 --- !u!1 &1388860977 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 164744, guid: 29c6f824a8087b549a0a0b68c7810a06,
@@ -827,7 +833,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - You've been runnning around for a while now, and this looks like a nice place
+      to rest.
+    - You approach it to lay down and take a break.
 --- !u!114 &1388860980
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -510,6 +510,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_BusinessMan_Shirt
       objectReference: {fileID: 0}
+    - target: {fileID: 1363632263242790, guid: 7851e97aa32f5474f92b61e3e4988c1a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733358680219814, guid: 7851e97aa32f5474f92b61e3e4988c1a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4077195986647316, guid: 7851e97aa32f5474f92b61e3e4988c1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.977828
@@ -561,58 +569,19 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: a8555c0cff30527479e32562cef9141f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7851e97aa32f5474f92b61e3e4988c1a, type: 3}
---- !u!1 &1325030598 stripped
+--- !u!1 &1191503270 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 194934, guid: 02569c08ab29ca94481dbec225d65225,
+  m_CorrespondingSourceObject: {fileID: 1733358680219814, guid: 7851e97aa32f5474f92b61e3e4988c1a,
     type: 3}
-  m_PrefabInstance: {fileID: 272598591}
+  m_PrefabInstance: {fileID: 1191503269}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1325030599 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 416874, guid: 02569c08ab29ca94481dbec225d65225,
-    type: 3}
-  m_PrefabInstance: {fileID: 272598591}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1325030600
+--- !u!114 &1191503271
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325030598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c97dee7f552bc4418db6e6f99a9ff8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isLandmark: 1
-  isFamiliarScent: 0
-  nextLevel: SuburbsLandmark
-  trigger: {fileID: 0}
---- !u!114 &1325030601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325030598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - Wait a minute, you've seen that before!
-    - It's one of the things you saw while you were in the car!
-    - Now to find the trail that your humans took.
---- !u!114 &1325030602
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325030598}
+  m_GameObject: {fileID: 1191503270}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
@@ -10147,35 +10116,13 @@ MonoBehaviour:
     - {x: -0.73342496, y: -0.33988526, z: 0.5886984}
     - {x: -0.7334257, y: -0.58869773, z: 0.3398849}
     - {x: -0.4605345, y: 0.44382113, z: -0.76872015}
---- !u!1 &1347558890 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1363632263242790, guid: 7851e97aa32f5474f92b61e3e4988c1a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1191503269}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1347558891
+--- !u!114 &1191503272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347558890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - You walk towards the person.
-    - Looks like they're eating something!
---- !u!114 &1347558892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347558890}
+  m_GameObject: {fileID: 1191503270}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c97dee7f552bc4418db6e6f99a9ff8a, type: 3}
@@ -10185,26 +10132,87 @@ MonoBehaviour:
   isFamiliarScent: 0
   nextLevel: SuburbsPerson
   trigger: {fileID: 0}
---- !u!65 &1347558893
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347558890}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.1818786, y: 1.9250094, z: 0.53509974}
-  m_Center: {x: 0.023000002, y: 0.8643996, z: -0.06551373}
---- !u!114 &1347558894
+--- !u!114 &1191503273
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1347558890}
+  m_GameObject: {fileID: 1191503270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - You walk towards the person.
+    - Looks like they're eating something!
+--- !u!65 &1191503274
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191503270}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0270505, y: 1.9250094, z: 0.53509974}
+  m_Center: {x: 0.017205477, y: 0.8643996, z: -0.06551373}
+--- !u!1 &1325030598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 194934, guid: 02569c08ab29ca94481dbec225d65225,
+    type: 3}
+  m_PrefabInstance: {fileID: 272598591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1325030599 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 416874, guid: 02569c08ab29ca94481dbec225d65225,
+    type: 3}
+  m_PrefabInstance: {fileID: 272598591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1325030600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325030598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c97dee7f552bc4418db6e6f99a9ff8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLandmark: 1
+  isFamiliarScent: 0
+  nextLevel: SuburbsLandmark
+  trigger: {fileID: 0}
+--- !u!114 &1325030601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325030598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Wait a minute, you've seen that before!
+    - It's one of the things you saw while you were in the car!
+    - Now to find the trail that your humans took.
+--- !u!114 &1325030602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325030598}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}

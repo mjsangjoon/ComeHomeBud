@@ -416,9 +416,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_Male_Jacket
       objectReference: {fileID: 0}
-    - target: {fileID: 1883428456049200, guid: d461c345ada76d14f94fe72087cec0f9, type: 3}
+    - target: {fileID: 1183484015034568, guid: d461c345ada76d14f94fe72087cec0f9, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1883428456049200, guid: d461c345ada76d14f94fe72087cec0f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4470227345235086, guid: d461c345ada76d14f94fe72087cec0f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -471,50 +475,64 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: a8555c0cff30527479e32562cef9141f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d461c345ada76d14f94fe72087cec0f9, type: 3}
---- !u!1 &704490952
+--- !u!1 &477454825 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 704490953}
-  m_Layer: 0
-  m_Name: PlayerFirstPersonView
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &704490953
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704490952}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 318433836}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &724262836 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1883428456049200, guid: d461c345ada76d14f94fe72087cec0f9,
+  m_CorrespondingSourceObject: {fileID: 1183484015034568, guid: d461c345ada76d14f94fe72087cec0f9,
     type: 3}
   m_PrefabInstance: {fileID: 477454824}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &724262837
+--- !u!65 &477454826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477454825}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0270505, y: 1.9250094, z: 0.53509974}
+  m_Center: {x: 0.017205477, y: 0.8643996, z: -0.06551373}
+--- !u!114 &477454827
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724262836}
+  m_GameObject: {fileID: 477454825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c97dee7f552bc4418db6e6f99a9ff8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLandmark: 0
+  isFamiliarScent: 0
+  nextLevel: SuburbsPersonWait
+  trigger: {fileID: 0}
+--- !u!114 &477454828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477454825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - Your humans always give you food if you sit.
+    - Time to wait for your food!
+--- !u!114 &477454829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477454825}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
@@ -10049,51 +10067,37 @@ MonoBehaviour:
     - {x: -0.73342496, y: -0.33988526, z: 0.5886984}
     - {x: -0.7334257, y: -0.58869773, z: 0.3398849}
     - {x: -0.4605345, y: 0.44382113, z: -0.76872015}
---- !u!65 &724262839
-BoxCollider:
+--- !u!1 &704490952
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724262836}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0683155, y: 1.9286335, z: 0.53336376}
-  m_Center: {x: 0.0023145676, y: 0.8662145, z: -0.0734314}
---- !u!114 &724262840
-MonoBehaviour:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 704490953}
+  m_Layer: 0
+  m_Name: PlayerFirstPersonView
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &704490953
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724262836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - Your humans always give you food if you sit.
-    - Time to wait for your food!
---- !u!114 &724262841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724262836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c97dee7f552bc4418db6e6f99a9ff8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isLandmark: 0
-  isFamiliarScent: 0
-  nextLevel: SuburbsPersonWait
-  trigger: {fileID: 0}
+  m_GameObject: {fileID: 704490952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 318433836}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &787949004
 PrefabInstance:
   m_ObjectHideFlags: 0

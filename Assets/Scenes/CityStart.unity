@@ -221,7 +221,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - Wait a minute, you've smelled that before!
+    - Where'd you smell it........
 --- !u!114 &87131549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,7 +547,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - It's a frisbee!
+    - Time to chase!
 --- !u!1001 &449910958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -861,7 +865,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - You see a person in the distance.
+    - You approach them to see what they're up to.
 --- !u!114 &612188269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1154,7 +1160,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - You've been runnning around for a while now, and this looks like a nice place
+      to rest.
+    - You approach it to lay down and take a break.
 --- !u!114 &1865431892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1299,7 +1308,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - A cat?
+    - MUST. CHASE.
 --- !u!114 &2018568698
 MonoBehaviour:
   m_ObjectHideFlags: 0

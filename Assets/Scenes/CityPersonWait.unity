@@ -729,7 +729,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - It's a frisbee!
+    - Time to chase!
 --- !u!114 &1566778802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -846,7 +848,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - You've been runnning around for a while now, and this looks like a nice place
+      to rest.
+    - You approach it to lay down and take a break.
 --- !u!114 &1582059127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -997,7 +1002,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - Hey, you've seen that building before!
+    - That means if you go this way you'll be one step closer to home!
 --- !u!1 &1930531617
 GameObject:
   m_ObjectHideFlags: 0

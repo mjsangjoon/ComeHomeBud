@@ -249,7 +249,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - ANOTHER DOG.
+    - MUST. GREET.
 --- !u!65 &237970456
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -478,7 +480,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - It's a frisbee!
+    - Time to chase!
 --- !u!1 &961149675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,7 +1069,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - Looks like they're just walking along.
+    - Maybe they'll get you something nice to eat?
+    - Time to follow them to find out!
 --- !u!114 &1572666577
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -437,6 +437,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_BusinessMan_Shirt
       objectReference: {fileID: 0}
+    - target: {fileID: 1363632263242790, guid: 7851e97aa32f5474f92b61e3e4988c1a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733358680219814, guid: 7851e97aa32f5474f92b61e3e4988c1a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4077195986647316, guid: 7851e97aa32f5474f92b61e3e4988c1a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.157537
@@ -496,11 +504,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1092654944 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1363632263242790, guid: 7851e97aa32f5474f92b61e3e4988c1a,
+  m_CorrespondingSourceObject: {fileID: 1733358680219814, guid: 7851e97aa32f5474f92b61e3e4988c1a,
     type: 3}
   m_PrefabInstance: {fileID: 1092654942}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1092654945
+--- !u!65 &1092654945
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092654944}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0270505, y: 1.9250094, z: 0.53509974}
+  m_Center: {x: 0.017205477, y: 0.8643996, z: -0.06551373}
+--- !u!114 &1092654946
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -516,36 +537,7 @@ MonoBehaviour:
   isFamiliarScent: 0
   nextLevel: SuburbsPersonApproach
   trigger: {fileID: 0}
---- !u!114 &1092654946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1092654944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - The person's finished eating but you can still smell a little bit of food left.
-    - You decided that at this point you need to beg for it.
---- !u!65 &1092654947
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1092654944}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.0270505, y: 1.9250094, z: 0.53509974}
-  m_Center: {x: 0.017205477, y: 0.8643996, z: -0.06551373}
---- !u!114 &1092654948
+--- !u!114 &1092654947
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10086,6 +10078,22 @@ MonoBehaviour:
     - {x: -0.73342496, y: -0.33988526, z: 0.5886984}
     - {x: -0.7334257, y: -0.58869773, z: 0.3398849}
     - {x: -0.4605345, y: 0.44382113, z: -0.76872015}
+--- !u!114 &1092654948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092654944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - The person's finished eating but you can still smell a little bit of food left.
+    - You decided that at this point you need to beg for it.
 --- !u!1001 &1197914884
 PrefabInstance:
   m_ObjectHideFlags: 0

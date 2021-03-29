@@ -156,7 +156,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - You see a person in the distance.
+    - You approach them to see what they're up to.
 --- !u!114 &20630464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,7 +728,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - A cat?
+    - MUST. CHASE.
 --- !u!114 &1012027785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -927,7 +931,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - Wait a minute, you've smelled that before!
+    - Where'd you smell it........
 --- !u!114 &1235745383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,7 +975,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - Hey, you've seen that building before!
+    - That means if you go this way you'll be one step closer to home!
 --- !u!114 &1425043356
 MonoBehaviour:
   m_ObjectHideFlags: 0

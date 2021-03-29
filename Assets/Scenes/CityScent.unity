@@ -611,7 +611,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - A cat?
+    - MUST. CHASE.
 --- !u!114 &629972203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,7 +788,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - Wait a minute, you've smelled that before!
+    - Where'd you smell it........
 --- !u!114 &988455183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,7 +925,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - Hey, you've seen that building before!
+    - That means if you go this way you'll be one step closer to home!
 --- !u!1 &1497794636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1125,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    sentences: []
+    sentences:
+    - It's a frisbee!
+    - Time to chase!
 --- !u!114 &1551683660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1183,8 +1191,8 @@ Transform:
   m_Children:
   - {fileID: 1148848224}
   - {fileID: 988455179}
-  - {fileID: 629972199}
   - {fileID: 1551683657}
+  - {fileID: 629972199}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -10061,6 +10061,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 921169037}
     m_Modifications:
+    - target: {fileID: 1127452935122688, guid: 1aeb5bfabdcdbcd4583e83139d952b1d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519916440438376, guid: 1aeb5bfabdcdbcd4583e83139d952b1d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1784647339104494, guid: 1aeb5bfabdcdbcd4583e83139d952b1d, type: 3}
       propertyPath: m_Name
       value: Character_BusinessMan_Suit
@@ -10116,6 +10124,75 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: a8555c0cff30527479e32562cef9141f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1aeb5bfabdcdbcd4583e83139d952b1d, type: 3}
+--- !u!1 &1193112146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1127452935122688, guid: 1aeb5bfabdcdbcd4583e83139d952b1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1193112145}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1193112147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193112146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.1415119, y: 1.9250094, z: 0.55431837}
+  m_Center: {x: -0.028986454, y: 0.8643996, z: -0.056034118}
+--- !u!114 &1193112148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193112146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c97dee7f552bc4418db6e6f99a9ff8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLandmark: 0
+  isFamiliarScent: 0
+  nextLevel: SuburbsPerson
+  trigger: {fileID: 0}
+--- !u!114 &1193112149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193112146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - You approached the person.
+    - Looks like they're eating something!
+--- !u!114 &1193112150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193112146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 0, g: 1, b: 0.0508914, a: 1}
+  outlineWidth: 4
+  precomputeOutline: 1
+  bakeKeys: []
+  bakeValues: []
 --- !u!1 &1379224263
 GameObject:
   m_ObjectHideFlags: 0
@@ -10531,75 +10608,6 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1782284416}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1996598634 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1519916440438376, guid: 1aeb5bfabdcdbcd4583e83139d952b1d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1193112145}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1996598636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996598634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  outlineMode: 0
-  outlineColor: {r: 0, g: 1, b: 0.0508914, a: 1}
-  outlineWidth: 4
-  precomputeOutline: 1
-  bakeKeys: []
-  bakeValues: []
---- !u!114 &1996598637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996598634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d940b2863dd4a44e986617ccc077671, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    sentences:
-    - You approached the person.
-    - Looks like they're eating something!
---- !u!114 &1996598638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996598634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c97dee7f552bc4418db6e6f99a9ff8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isLandmark: 0
-  isFamiliarScent: 0
-  nextLevel: SuburbsPerson
-  trigger: {fileID: 0}
---- !u!65 &1996598639
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996598634}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.0491168, y: 1.9250094, z: 0.55431837}
-  m_Center: {x: -0.00000023841858, y: 0.8643996, z: -0.056034125}
 --- !u!1001 &3248694021774548292
 PrefabInstance:
   m_ObjectHideFlags: 0
