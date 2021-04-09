@@ -59,8 +59,8 @@ public class ClickableObject : MonoBehaviour
             if(nextStageThroughProgressPossible()){
                 //advance to end if suburbs have been completed
                 if(PlayerPrefManager.GetSuburbsComplete()){
-                    // nextLevel = "gameComplete";
-                    Debug.Log("Suburbs Complete");
+                    this.nextLevel = "GameComplete";
+                    Debug.Log(this.nextLevel);
                 }
                 else{
                     this.nextLevel = "CityStart";

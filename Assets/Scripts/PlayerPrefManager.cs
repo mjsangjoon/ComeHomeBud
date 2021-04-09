@@ -81,7 +81,7 @@ public static class PlayerPrefManager{
 
     //Set stored player state and variables
     public static void SetPlayerState(int lm, int fs, int subComp){
-        Debug.Log("Player State reset.");
+        Debug.Log("Player State reset. Landmark: " + lm + ", Scent: " + fs + ", Suburbs: " + subComp);
         PlayerPrefs.SetInt("LandmarkCount", lm);
         PlayerPrefs.SetInt("FamiliarScentCount", fs);
         PlayerPrefs.SetInt("SuburbsComplete", subComp);

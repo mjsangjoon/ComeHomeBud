@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CityScent.unity
     guid: 7354a474a8b4df948b3faa2569261d9a
+  - enabled: 1
+    path: Assets/Scenes/GameComplete.unity
+    guid: ddf4a6fe70def6d49aba6fb9d3457c16
   m_configObjects: {}

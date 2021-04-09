@@ -7024,8 +7024,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 052a86a70b77d5f46b30e613721ff935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numTimesLandmarkNeedsToBeSeen: 0
-  numTimesFamiliarScentNeedsToBeFound: 0
+  numTimesLandmarkNeedsToBeSeen: 8
+  numTimesFamiliarScentNeedsToBeFound: 10
   instantWinPossible: 0
   skipToNextStagePossible: 0
 --- !u!4 &1569968768

@@ -20,5 +20,8 @@ public class GameManagerEditor : Editor //extend Editor class
         if(GUILayout.Button("Output Player State")){
             PlayerPrefManager.ShowPlayerPrefs();
         }
+        if(GUILayout.Button("Reset Player State for City")){
+            PlayerPrefManager.SetPlayerState(0,0,1);
+        }
     }
 }
