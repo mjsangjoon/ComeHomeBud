@@ -61,12 +61,12 @@ public class MainMenuManager : MonoBehaviour{
             case "Instructions":
                 _Instructions.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(AboutDefaultButton);
-                titleText.text = "Instructions";
+                titleText.text = "About";
                 break;
             case "Credits":
                 _Credits.SetActive(true);
                 EventSystem.current.SetSelectedGameObject(CreditsDefaultButton);
-                titleText.text = "About";
+                titleText.text = "Credits";
                 break;
         }
     }
